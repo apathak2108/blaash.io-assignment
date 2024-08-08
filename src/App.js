@@ -1,7 +1,8 @@
 import React from "react";
+import HomeAdaptive from "./pages";
 
 const App = () => {
-  return <div className="App">Blaash.io</div>;
+  return <HomeAdaptive />;
 };
 
 export default App;
