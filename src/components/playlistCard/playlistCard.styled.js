@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 export const StyledPlaylistCardContainer = styled.div`
   position: relative;
-  height: 164px;
+  height: fit-content;
+  cursor: pointer;
 `;
 
 export const StyledPlaylistCardDescription = styled.span`
@@ -27,7 +28,7 @@ export const StyledPlaylistCardFooter = styled.footer`
   align-items: center;
   justify-content: center;
   gap: 13px;
-  top: 135px;;
+  top: 135px;
   font-size: 14px;
   font-weight: 500;
   left: 50%;

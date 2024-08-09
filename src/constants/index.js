@@ -4,6 +4,14 @@ import ImageThree from "../assets/home/playlistThree.svg";
 import ImageFour from "../assets/home/playlistFour.svg";
 import ImagFive from "../assets/home/playlistFive.svg";
 import ImageSix from "../assets/home/playlistSix.svg";
+import UpArrowIcon from "../assets/sidebar/upArrow.svg";
+import DownArrowIcon from "../assets/sidebar/downArrow.svg";
+import RevenueIcon from "../assets/sidebar/revenue.svg";
+import ImageIcon from "../assets/sidebar/image.svg";
+import BrightImageIcon from "../assets/sidebar/brightImage.svg";
+import ClickIcon from "../assets/sidebar/click.svg";
+import CalenderIcon from "../assets/sidebar/calender.svg";
+import SettingsIcon from "../assets/sidebar/settings.svg";
 
 export const STRINGS = {
   HEADER_HEADING: "Design Studio",
@@ -11,6 +19,14 @@ export const STRINGS = {
   SUPPORT_BTN_TEXT: "Support Request",
   PRODUCT_BTN_TEXT: "Product Tour",
   SEARCH_PLACEHOLDER: "Search Project ...",
+  HOME_HEADER_TEXT: "Product Playlists",
+  HOME_HEADER_BTN_LABEL: "Generate Code",
+  SIDEBAR_OPEN_TEXT: "Product Playlist",
+  VIDEO_STATUS: "Video Status",
+  ACTIVE: "Active",
+  INACTIVE: "Inactive",
+  PRODUCT_LIST: "Product List",
+  UPDATE_PLAYLIST: "Update Playlist",
 };
 
 export const URL = {
@@ -25,4 +41,44 @@ export const PlaylistBackgoundImages = [
   ImageFour,
   ImagFive,
   ImageSix,
+];
+
+export const SidebarItems = [
+  { icon: RevenueIcon, text: "Revenue", downArrow: false, upArrow: false },
+  {
+    icon: ImageIcon,
+    text: "Shoppable Video",
+    downArrow: true,
+    downArrowIcon: DownArrowIcon,
+    upArrow: false,
+  },
+  {
+    icon: ImageIcon,
+    text: "Story",
+    downArrow: true,
+    downArrowIcon: DownArrowIcon,
+    upArrow: false,
+  },
+  {
+    icon: ImageIcon,
+    text: "Live Commerce",
+    downArrow: true,
+    downArrowIcon: DownArrowIcon,
+    upArrow: false,
+  },
+  {
+    icon: BrightImageIcon,
+    text: "Playlist Manager",
+    downArrow: false,
+    upArrow: true,
+    upArrowIcon: UpArrowIcon,
+  },
+  { icon: ClickIcon, text: "One Click Post", downArrow: false, upArrow: false },
+  { icon: CalenderIcon, text: "Calender", downArrow: false, upArrow: false },
+  {
+    icon: SettingsIcon,
+    text: "Hire Influencer",
+    downArrow: false,
+    upArrow: false,
+  },
 ];
