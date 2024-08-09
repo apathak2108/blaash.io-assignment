@@ -2,21 +2,23 @@ import styled from "styled-components";
 
 export const StyledHeader = styled.header`
   height: 67px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: var(--secondary-color);
   border-radius: 12px;
-  padding: 0 12px;
 `;
 
 export const StyledLeftHeader = styled.span`
   font-weight: 500;
+  margin-left: 12px;
 `;
 
 export const StyledRightHeader = styled.div`
   display: flex;
   gap: 12px;
+  margin-right: 12px;
 `;
 
 export const StyledRightUser = styled.div`

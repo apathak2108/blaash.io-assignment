@@ -1,12 +1,16 @@
 import React from "react";
-import { StyledLayout } from "./layout.styled";
+import { StyledLayout, StyledRightLayout } from "./layout.styled";
 import Header from "../header";
+import Sidebar from "../sidebar";
 
 const Layout = ({ children }) => {
   return (
     <StyledLayout>
-      <Header />
-      {children}
+      <Sidebar />
+      <StyledRightLayout>
+        <Header />
+        {children}
+      </StyledRightLayout>
     </StyledLayout>
   );
 };

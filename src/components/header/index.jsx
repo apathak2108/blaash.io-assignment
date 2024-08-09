@@ -29,7 +29,9 @@ const Header = () => {
           <img src={NotificationIcon} />
         </StyledNotificationIconContainer>
         <StyledSearchContainer>
-          <StyledSearchPlaceholder>{STRINGS.SEARCH_PLACEHOLDER}</StyledSearchPlaceholder>
+          <StyledSearchPlaceholder>
+            {STRINGS.SEARCH_PLACEHOLDER}
+          </StyledSearchPlaceholder>
           <StyledSearchIconContainer>
             <img src={SearchIcon} />
           </StyledSearchIconContainer>
