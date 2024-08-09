@@ -1,11 +1,12 @@
 import styled from "styled-components";
 
 export const StyledButton = styled.button`
+  background-color: ${({ flag }) => (flag ? "#017EFA" : "transparent")};
+  font-weight: ${({ flag }) => (flag ? "600" : "400")};
   padding: 8px 10px;
   border: 1px solid var(--blue-color);
   color: white;
   font-size: 14px;
-  background-color: transparent;
   border-radius: 10px;
   display: flex;
   gap: 8px;
